@@ -1,7 +1,7 @@
 # backend_study
 
 
-<!-- DAY 1: -->
+DAY 1:
 
 fundamentals of js
 arrays and obj
@@ -11,7 +11,7 @@ async js copding
 
 
 
-<!-- DAY 2: -->
+DAY 2:
 
 Node.js Basics
 
@@ -43,13 +43,13 @@ Understanding HTTP modules
 
 
 
-<!-- DAY 3: -->
+DAY 3:
 
 1. What is npm?
 
 
 npm (Node Package Manager) is the default package manager for Node.js. It helps developers install, manage, and share JavaScript libraries and tools.
-<!-- Key Features of npm: -->
+Key Features of npm:
 ... Package Management - Allows you to install and update JavaScript libraries easily.
 ... Dependency Management - Handles dependencies for projects using package.json.
 ... Script Running - Lets you automate tasks using npm run scripts.
@@ -66,7 +66,7 @@ npm (Node Package Manager) is the default package manager for Node.js. It helps 
 
 3. Install particular version of package 
     npm i packagename@version
-    <!-- eg - npm i accessibility@3.0.1 -->
+    eg - npm i accessibility@3.0.1
   
 4. Node_Modules
 
@@ -106,7 +106,7 @@ You can define your own scripts in package.json. Run with run command. (i create
 
 
 
-<!----- DAY-4 ----->
+--- DAY-4 ---
 
 
 Express.js framework:
@@ -124,16 +124,16 @@ A framework is a pre-built structure that provides a foundation for developing a
 
 3. Routing   
 ---Routing in Express.js determines how an application responds to different HTTP requests (GET, POST, PUT, DELETE) for specific URLs (routes).
-<!-- app.get(route , requestHandler) -->     /--> main page      /profile--> profile page
+app.get(route , requestHandler) -->     / main page      /profile--> profile page
 
 
 
 
 4. MiddleWare
-<!-- sasti bhasha mai -->
-whenever server accepts the request, from there to reach the end we can do anything in middle.....that is called middleware.
-<!-- english mai hehehe-->
-Middleware functions in Express.js are functions that execute during the request-response cycle. They modify, process, or handle requests before they reach the final route or response.
+
+---whenever server accepts the request, from there to reach the end we can do anything in middle.....that is called middleware.
+
+---Middleware functions in Express.js are functions that execute during the request-response cycle. They modify, process, or handle requests before they reach the final route or response.
 
 
 
@@ -156,9 +156,9 @@ Express.js provides a structured way to handle errors efficiently, preventing se
 
 Default error handler middleware--
 
-<!-- 
+
 app.use((err, req, res, next) => {
     console.error(err.stack); // Log the error
     res.status(500).send("something wrong");
 }); 
--->
+
